@@ -13,7 +13,6 @@ Explainable AI and Error-Centric Evaluation."*
 | `requirements.txt` | — | Python packages needed to run the notebook. |
 | `balanced_dataset.csv` | Step 1b | The frozen, domain-diversity-balanced dataset (15,000 URLs per class, 45,000 total) used for all reported results. |
 | `snapshotted_dataset.csv` | Step 1c | The balanced dataset with WHOIS/RDAP and redirect-trace features attached, captured immediately after balancing. |
-| `train_holdout_split.csv` | Step 2 | The exact domain-grouped train/holdout split (75/25) used by both baseline classifiers, so results can be reproduced without re-running the split. |
 | `whois_cache.db` | Step 1c | SQLite cache of raw WHOIS/RDAP lookups. |
 | `error_vault.db` | Step 6 | SQLite table of every false positive and false negative from both models, with full feature snapshots. |
 

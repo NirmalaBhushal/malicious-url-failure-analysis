@@ -54,7 +54,7 @@ or, inside the notebook itself, run the first cell:
 !pip install -q scikit-learn tensorflow shap lime tldextract python-whois dnspython requests pandas
 ```
 
-The pipeline was developed and run in Google Colab (hosted Python 3.x runtime).
+The pipeline was developed and run in Google Colab (hosted Python 3 runtime).
 
 ## How to reproduce the reported results
 

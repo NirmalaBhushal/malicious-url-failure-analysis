@@ -27,8 +27,6 @@ detector failure.
 | `whois_cache.db` | Step 1c | SQLite cache of raw WHOIS/RDAP lookups. |
 | `error_vault.db` | Step 6 | SQLite table of every false positive and false negative from both models, with full feature snapshots. |
 
-*(Include whichever of the files above you still have available locally — see "What
-to upload" below if some are missing.)*
 
 ## Pipeline steps (matches the notebook's markdown cells)
 

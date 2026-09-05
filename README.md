@@ -64,6 +64,13 @@ down or repurposed. The frozen CSV/DB files in this repository are what make the
 paper's specific reported numbers reproducible; re-running the acquisition steps
 against live feeds is expected to produce different (though structurally similar)
 results.
+## Acknowledgements
+
+Portions of this implementation were inspired by openly available Python code and
+examples found on GitLabhttps://github.com/python and other online sources — including general patterns for
+WHOIS/RDAP lookups, redirect-chain tracing, and SHAP/LIME explainability workflows.
+These were adapted and integrated into the pipeline described in this repository following the gitlab website.
+
 
 ## Citation
 

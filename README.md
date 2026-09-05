@@ -4,16 +4,6 @@ This repository contains the pipeline code and dataset snapshots used to produce
 results reported in *"Failure-Pattern Analysis of Malicious URL Detectors Using
 Explainable AI and Error-Centric Evaluation."*
 
-## What this pipeline does
-
-The notebook builds a domain-diversity-balanced dataset of benign, phishing, and
-malware URLs, trains two baseline classifiers (a Random Forest and a character-level
-LSTM) on identical data splits, isolates every misclassification from both models into
-a single error vault, and applies SHAP and LIME **only** to those misclassified
-samples to explain why each model failed. It then compares error patterns across
-behavioural and infrastructure features (redirect depth, URL shorteners, domain age,
-hosting type) to identify which real-world evasion behaviours are associated with
-detector failure.
 
 ## Files
 
